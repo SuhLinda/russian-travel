@@ -10,4 +10,4 @@
 *Линда Суховенко*
 
 **Ссылка** 
-### https://suhlinda.github.io/my-russian-travel/
+### https://suhlinda.github.io/russian-travel/
