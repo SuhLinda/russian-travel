@@ -1,0 +1,8 @@
+.lead__image {
+  object-fit: cover;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+  }
