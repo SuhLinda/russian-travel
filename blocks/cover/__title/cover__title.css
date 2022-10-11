@@ -15,9 +15,9 @@
   }
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 850px) {
   .cover__title {
-    margin: 150px auto auto;
+    margin: 145px 232px auto;
   }
 }
 
@@ -27,14 +27,15 @@
   }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 600px) {
   .cover__title {
     font-size: 32px;
     line-height: 35px;
-    margin: 115px 16px auto;
+    margin: 115px 104px auto;
   }
 }
-@media screen and (max-width: 500px) {
+
+@media screen and (max-width: 425px) {
   .cover__title {
     font-size: 32px;
     line-height: 35px;
