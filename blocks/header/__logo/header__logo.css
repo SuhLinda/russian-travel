@@ -2,15 +2,10 @@
   background-image: url(../../../images/header__logo.png);
   background-position: center;
   background-repeat: no-repeat;
-  min-width: 176px;
-  min-height: 52px;
+  max-width: 176px;
+  min-width: 142px;
+  max-height: 52px;
+  max-height: 42px;
   padding: 0;
   margin: 0;
-}
-
-@media screen and (max-width: 320px) {
-  .header__logo {
-    min-width: 142px;
-    margin: 0;
-  }
 }

@@ -5,20 +5,14 @@
   text-decoration-line: underline;
   color: #FFFFFF;
   max-width: 456px;
+  min-width: 288px;
   margin: 0;
 }
 
-@media screen and (max-width: 768px) {
-  .place__link {
-    max-width: 352px;
-  }
-}
-
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 320px){
   .place__link {
     font-size: 12px;
     line-height: 12px;
     letter-spacing: 2px;
-    max-width: 288px;
   }
 }

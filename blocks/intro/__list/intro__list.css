@@ -5,22 +5,7 @@
   line-height: 18px;
   color: #FFFFFF;
   max-width: 690px;
+  min-width: 288px;
   margin: 0;
   padding: 0;
-}
-
-@media screen and (max-width: 768px) {
-  .intro__list {
-    max-width: 720px;
-    margin: 0 24px 88px 24px;
-    padding: 0;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .intro__list {
-    max-width: 288px;
-    margin: 0;
-    padding: 0;
-  }
 }
