@@ -1,5 +1,4 @@
 .places {
-  border: red solid 1px;
   display: grid;
   row-gap: 80px;
   column-gap: 0;
