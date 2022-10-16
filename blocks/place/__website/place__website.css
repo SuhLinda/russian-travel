@@ -1,7 +1,4 @@
 .place__website {
-  -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-  -moz-text-size-adjust: 100%; 
   grid-column: 2/3;
   grid-row: 1/2;
   align-self: end;
