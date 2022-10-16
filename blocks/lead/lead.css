@@ -2,24 +2,36 @@
   display: flex;
   flex-direction: column;
   max-width: 984px;
-  min-width: 320px;
-  margin: 0 148px;
+  max-height: 1005px;
+  margin: 0 auto;
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1279px) {
+@media screen and (max-width: 1280px) {
   .lead {
+    margin: 0 148px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .lead {
+    max-width: 928px;
+    max-height: 962px;
     margin: 0 48px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .lead {
+    max-width: 768px;
+    max-height: 862px;
     margin: 0;
   }
 }
 
 @media screen and (max-width: 320px) {
   .lead {
+    min-width: 320px;
+    min-height: 406px;
     margin: 0 2px;
   }
 }

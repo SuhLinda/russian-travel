@@ -10,10 +10,10 @@
   min-width: 320px;
   max-height: 740px;
   margin: 0;
-  background-color: #2A2C2F;
   transition: background-color 1s linear 0.5s;
 }
 
 .cover__link:hover {
+  background-color: black;
   opacity: .3;
 }

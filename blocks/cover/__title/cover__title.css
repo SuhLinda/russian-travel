@@ -1,4 +1,7 @@
 .cover__title {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%; 
   font-family: 'Inter', 'Arial', 'sans-serif';
   font-weight: 900;
   font-size: 72px;
@@ -16,11 +19,6 @@
   }
 }
 
-@media screen and (max-width: 850px) {
-  .cover__title {
-    margin: 145px 232px auto;
-  }
-}
 
 @media screen and (max-width: 768px) {
   .cover__title {
@@ -42,4 +40,8 @@
     line-height: 35px;
     margin: 33px 16px auto;
   }
+}
+
+.cover__title:hover {
+  opacity: 1;
 }
