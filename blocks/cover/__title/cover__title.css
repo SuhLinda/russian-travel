@@ -19,7 +19,6 @@
   }
 }
 
-
 @media screen and (max-width: 768px) {
   .cover__title {
     margin: 115px 104px auto;
@@ -40,8 +39,4 @@
     line-height: 35px;
     margin: 33px 16px auto;
   }
-}
-
-.cover__title:hover {
-  opacity: 1;
 }

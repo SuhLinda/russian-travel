@@ -23,3 +23,7 @@
     max-width: 288px;
   }
 }
+
+.place__link:hover {
+  opacity: .5;
+}
