@@ -1,6 +1,5 @@
 .cover {
-  border: red solid 1px;
-  display: grid;
+
   max-width: 1184px;
   min-width: 320px;
   max-height: 740px;
