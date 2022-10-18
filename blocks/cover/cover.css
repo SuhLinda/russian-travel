@@ -1,5 +1,5 @@
 .cover {
-  display: grid;
+  display: flex;
   max-width: 1184px;
   min-height: 740px;
   margin: 0 auto 92px;
@@ -35,3 +35,4 @@
     min-height: 200px;
   }
 }
+
