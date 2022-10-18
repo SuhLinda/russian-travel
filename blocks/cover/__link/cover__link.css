@@ -1,5 +1,8 @@
 .cover__link {
+  border: blue solid 1px;
   display: flex;
+  flex-direction: column;
+  align-self: center;
   position: relative;
   background-image: url(../../../images/cover__background.png);
   background-repeat: no-repeat;
@@ -8,8 +11,38 @@
   text-decoration: none;
   color: white;
   max-width: 100%;
+  min-height: 740px;
   margin: 0;
   z-index: 0;
+}
+
+
+@media screen and (max-width: 1024px) {
+  .cover {
+    max-width: 1024px;
+    min-height: 640px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cover {
+    max-width: 768px;
+    min-height: 480px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .cover {
+    max-width: 425px;
+    min-height: 280px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cover {
+    max-width: 320px;
+    min-height: 200px;
+  }
 }
 
 .cover__link::after {

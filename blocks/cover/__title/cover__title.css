@@ -1,6 +1,8 @@
 .cover__title {
+  border: yellow solid 1px;
   justify-content: center;
   align-items: center;
+  align-self: center;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
