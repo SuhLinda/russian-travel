@@ -17,13 +17,10 @@
 
 @media screen and (max-width: 320px) {
   .place__link {
-    font-size: 12px;
-    line-height: 12px;
-    letter-spacing: 2px;
     max-width: 288px;
   }
 }
 
 .place__link:hover {
-  opacity: .5;
+  opacity: .8;
 }

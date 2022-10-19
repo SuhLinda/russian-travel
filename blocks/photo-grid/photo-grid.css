@@ -3,7 +3,7 @@
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 16px;
   max-width: 1184px;
-  max-height: 671px;
+  min-height: 671px;
   margin: 0 auto 92px;
 }
 
@@ -17,7 +17,7 @@
   .photo-grid {
     grid-template-columns: repeat(3, 1fr);
     max-width: 928px;
-    max-height: 942px;
+    min-height: 942px;
     grid-gap: 14px;
   }
 }
@@ -26,7 +26,7 @@
   .photo-grid {
     grid-template-columns: repeat(2, 1fr);
     max-width: 720px;
-    max-height: 1664px;
+    min-height: 1664px;
     margin: 0 24px 88px;
   }
 }

@@ -3,7 +3,7 @@
   justify-content: space-between;
   max-width: 1184px;
   max-height: 18px;
-  margin: 0 auto;
+  margin: 92px auto 0;
   padding-bottom: 24px;
 }
 
@@ -22,7 +22,7 @@
 @media screen and (max-width: 768px) {
   .footer {
     max-width: 720px;
-    margin: 0 24px;
+    margin: 90px 24px 0;
   }
 }
 
@@ -31,6 +31,6 @@
     flex-direction: column;
     max-width: 186px;
     max-height: 310px;
-    margin: 0 16px;
+    margin: 66px 16px 0;
   }
 }
