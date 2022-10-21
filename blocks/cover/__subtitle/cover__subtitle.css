@@ -13,6 +13,7 @@
   color: #FFFFFF;
   max-width: 360px;
   min-height: 66px;
+  margin: 32px 0 0;
 }
 
 @media screen and (max-width: 600px) {
@@ -21,5 +22,6 @@
     line-height: 16px;
     max-width: 288px;
     min-height: 48px;
+    margin: 16px 0 0;
   }
 }
